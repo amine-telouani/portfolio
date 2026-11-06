@@ -252,6 +252,68 @@ export default function Portfolio() {
         </div>
       </section>
 
+      <section id="technical-background" className="mx-auto max-w-7xl px-5 py-24 sm:px-8">
+        <Reveal>
+          <p className="mono text-[10px] uppercase tracking-[0.2em] text-[var(--accent)]">Earlier technical background</p>
+          <h2 className="mt-4 max-w-2xl text-4xl font-semibold tracking-[-0.06em] sm:text-5xl">
+            Laboratory work grounded my approach to reliable systems.
+          </h2>
+          <p className="mt-5 max-w-2xl leading-7 text-[var(--muted)]">
+            Before focusing on computer engineering and AI, I worked in quality control, water analysis, and computational chemistry.
+          </p>
+        </Reveal>
+        <div className="mt-14 grid gap-5 lg:grid-cols-2">
+          {[
+            {
+              date: "Apr 2025 - Jun 2025 · 3 months",
+              title: "Food Quality Control Intern",
+              organization: "SOGENCOWEB · Safi, Marrakesh-Safi, Morocco",
+              detail: "Quality control work focused on the food safety of fishery products.",
+              points: [
+                "Measured and controlled histamine levels in fishery products.",
+                "Verified batch compliance with regulations and client requirements.",
+                "Applied laboratory hygiene rules and HACCP principles."
+              ]
+            },
+            {
+              date: "Jul 2024 - Aug 2024 · 2 months",
+              title: "Laboratory Technician Intern",
+              organization: "Régie Autonome Multi-Services d'Agadir (RAMSA) · Agadir, Souss-Massa, Morocco",
+              detail: "Practical laboratory work focused on monitoring drinking water quality.",
+              points: [
+                "Performed daily physicochemical and microbiological analyses.",
+                "Checked sample compliance against quality standards.",
+                "Tracked pH, chlorine, and turbidity indicators and wrote reports."
+              ]
+            },
+            {
+              date: "Jan 2025 - Jun 2025",
+              title: "DFT Study of [4+2] Cycloaddition Reactions",
+              organization: "Computational chemistry project",
+              detail: "Kinetic and thermodynamic study of a Diels-Alder reaction using Gaussian and GaussView.",
+              points: [
+                "Analyzed global and local indices.",
+                "Studied the reaction energy profile."
+              ]
+            }
+          ].map((item, index) => (
+            <Reveal key={item.title} delay={index * 0.05} className="border-t border-[var(--line)] pt-6">
+              <p className="mono text-xs text-[var(--accent)]">{item.date}</p>
+              <h3 className="mt-4 text-2xl font-semibold tracking-[-0.04em]">{item.title}</h3>
+              <p className="mt-2 text-sm text-[var(--foreground)]">{item.organization}</p>
+              <p className="mt-4 leading-7 text-[var(--muted)]">{item.detail}</p>
+              <ul className="mt-5 space-y-3">
+                {item.points.map((point) => (
+                  <li key={point} className="border-l border-[var(--accent)] pl-4 text-sm leading-6 text-[var(--foreground)]">
+                    {point}
+                  </li>
+                ))}
+              </ul>
+            </Reveal>
+          ))}
+        </div>
+      </section>
+
       <section id="skills" className="mx-auto max-w-7xl px-5 py-24 sm:px-8">
         <Reveal>
           <h2 className="text-4xl font-semibold tracking-[-0.06em] sm:text-5xl">Skills I use to make things work.</h2>
