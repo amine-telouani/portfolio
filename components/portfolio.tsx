@@ -275,6 +275,23 @@ export default function Portfolio() {
         </div>
       </section>
 
+      <section id="github" className="border-y border-[var(--line)] bg-[var(--surface-strong)]">
+        <div className="mx-auto grid max-w-7xl gap-10 px-5 py-20 sm:px-8 lg:grid-cols-[1fr_auto] lg:items-end">
+          <Reveal>
+            <p className="mono text-[10px] uppercase tracking-[0.2em] text-[var(--accent)]">GitHub profile</p>
+            <h2 className="mt-4 max-w-2xl text-4xl font-semibold tracking-[-0.06em] sm:text-5xl">
+              A clearer view of the work behind the portfolio.
+            </h2>
+            <p className="mt-5 max-w-xl leading-7 text-[var(--muted)]">
+              Explore my repositories, technical focus, selected projects, and engineering background on GitHub.
+            </p>
+          </Reveal>
+          <Reveal delay={0.08}>
+            <ArrowLink href="https://github.com/atel12345">Visit my GitHub profile</ArrowLink>
+          </Reveal>
+        </div>
+      </section>
+
       <section id="contact" className="border-t border-[var(--line)]">
         <div className="mx-auto grid max-w-7xl gap-12 px-5 py-24 sm:px-8 lg:grid-cols-[1fr_0.8fr] lg:items-end">
           <Reveal>
