@@ -237,9 +237,7 @@ export default function Portfolio() {
           <div className="relative ml-2 mt-14 border-l border-t border-[var(--line)]">
             {[
               ["Summer 2026 · 1 month", "Internship at innovpal", "AI and data engineering. See the Scopus Bibliometric AI Agent project."],
-              ["3 days", "Orange Digital Center", "AI and ML training covering search algorithms, preprocessing, feature engineering, regression, evaluation metrics, and K-means clustering."],
-              ["April 7-9, 2026", "GITEX Africa", "Attendee."],
-              ["2025", "ENSAM Casablanca Forum des Entreprises", "Participant."]
+              ["3 days", "Orange Digital Center", "AI and ML training covering search algorithms, preprocessing, feature engineering, regression, evaluation metrics, and K-means clustering."]
             ].map(([date, title, detail], index) => (
               <Reveal key={title} delay={index * 0.05} className="relative grid gap-3 border-b border-[var(--line)] py-8 pl-7 sm:grid-cols-[150px_1fr] sm:gap-8 sm:pl-8">
                 <span aria-hidden="true" className="absolute left-[-5px] top-10 h-2.5 w-2.5 rounded-full border-2 border-[var(--surface-strong)] bg-[var(--accent)]" />
