@@ -30,7 +30,7 @@ const projects: Project[] = [
     metric: { before: "94.42%", after: "95.11%", label: "accuracy, CNN baseline to dual-branch" },
     links: [
       { label: "Live demo", href: "https://deepfake-detector-c4cdq8sjhqywu5y8zgjgak.streamlit.app/" },
-      { label: "Code", href: "https://github.com/atel12345/deepfake-detector" }
+      { label: "Code", href: "https://github.com/amine-telouani/deepfake-detector" }
     ]
   },
   {
@@ -44,7 +44,7 @@ const projects: Project[] = [
       "FastAPI and React web app with authentication, live progress tracking, report history, and an OpenAlex fallback."
     ],
     tags: ["Python", "Scopus API", "OpenAlex", "FastAPI", "React", "Excel"],
-    links: [{ label: "Repository", href: "https://github.com/atel12345/ai-scopus" }]
+    links: [{ label: "Repository", href: "https://github.com/amine-telouani/ai-scopus" }]
   },
   {
     number: "03",
@@ -57,7 +57,7 @@ const projects: Project[] = [
       "Learned memory layout, graphics, controller input, and sound programming."
     ],
     tags: ["6502 Assembly", "NES", "Game Logic", "Sound"],
-    links: [{ label: "Repository", href: "https://github.com/atel12345/maze-mayhem" }]
+    links: [{ label: "Repository", href: "https://github.com/amine-telouani/maze-mayhem" }]
   },
   {
     number: "04",
@@ -70,7 +70,7 @@ const projects: Project[] = [
       "React frontend with a documented API."
     ],
     tags: ["Laravel", "React", "JWT", "REST API", "PHP"],
-    links: [{ label: "Repository", href: "https://github.com/atel12345/projet_laravel-TELOUANI-Amine-SBIA-Youness-" }]
+    links: [{ label: "Repository", href: "https://github.com/amine-telouani/projet_laravel-TELOUANI-Amine-SBIA-Youness-" }]
   }
 ];
 
@@ -347,7 +347,7 @@ export default function Portfolio() {
             </p>
           </Reveal>
           <Reveal delay={0.08}>
-            <ArrowLink href="https://github.com/atel12345">Visit my GitHub profile</ArrowLink>
+            <ArrowLink href="https://github.com/amine-telouani">Visit my GitHub profile</ArrowLink>
           </Reveal>
         </div>
       </section>
@@ -361,7 +361,7 @@ export default function Portfolio() {
           <Reveal delay={0.1} className="flex flex-col gap-5 lg:items-end">
             <a href="mailto:a.telouani@gmail.com" className="w-full rounded-full bg-[var(--accent)] px-6 py-4 text-center text-sm font-semibold text-white transition hover:brightness-110 active:translate-y-px lg:w-auto">a.telouani@gmail.com</a>
             <div className="flex gap-6">
-              <ArrowLink href="https://github.com/atel12345">GitHub</ArrowLink>
+              <ArrowLink href="https://github.com/amine-telouani">GitHub</ArrowLink>
               <ArrowLink href="https://www.linkedin.com/in/amine-telouani-b735592a1/">LinkedIn</ArrowLink>
             </div>
           </Reveal>
